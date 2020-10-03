@@ -18,7 +18,8 @@
         </div>
       </ul>
       <ng-template [ngIf]="onlyOdd">
-        <p style="font-weight: 800; text-decoration: underline;" appBetterHighlight>Only odd</p>
+        <p style="font-weight: 800; text-decoration: underline;" appBetterHighlight [defaultColor]="'yellow'"
+          [highlightColor]="'red'">Only odd</p>
       </ng-template>
     </div>
   </div>
